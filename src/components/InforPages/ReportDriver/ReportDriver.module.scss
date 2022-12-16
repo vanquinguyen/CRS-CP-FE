@@ -1,0 +1,54 @@
+.wrapper{
+    padding-top: 30px;
+    padding-bottom: 40px;
+    font-size: 1.4rem;
+}
+.title{
+    font-size: 1.6rem;
+}
+.wrapper-income{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+
+
+}
+.text-setgoal{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+
+}
+.inputag{
+    margin-top: 20px;
+    margin-bottom: 8px;
+}
+.custom-title{
+    margin-bottom: 25px;
+}
+.box-this-month{
+    height: 18px;
+    width: 18px;
+    background-color: #8884d8;
+    margin-right: 10px;
+}
+.box-last-month{
+    height: 18px;
+    width: 18px;
+    background-color: #82ca9d;
+    margin-right: 10px;
+
+}
+.note{
+    display: flex;
+}
+.note-text{
+    margin-left: 50px;
+    margin-top:5px;
+}
+.checkbox{
+    margin-left: 12px;
+    margin-right: 10px;
+}

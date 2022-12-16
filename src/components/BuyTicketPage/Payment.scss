@@ -1,0 +1,122 @@
+.payment {
+  font-family: Montserrat;
+  &-info {
+    border: 1.5px solid black;
+    border-radius: 8px;
+    overflow: hidden;
+    &-header {
+      background-color: black;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      height: 50px;
+      font-size: 18px;
+      font-weight: 600;
+      line-height: 16px;
+      letter-spacing: 0.005em;
+    }
+    &-section {
+      &-title {
+        background-color: #ececec;
+        height: 36px;
+        display: flex;
+        align-items: center;
+        padding-left: 16px;
+      }
+      &-info {
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 16px;
+        letter-spacing: 0.005em;
+        padding-left: 16px;
+        display: flex;
+        padding-right: 30px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        &-title {
+          min-width: 130px;
+        }
+      }
+    }
+    &-footer {
+      background-color: #ececec;
+      display: flex;
+      align-items: end;
+      flex-direction: column;
+      padding: 8px 16px 8px 16px;
+      margin-top: 4px;
+      &-title {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 16px;
+        letter-spacing: 0.005em;
+        text-align: left;
+        margin-bottom: 4px;
+      }
+      &-number {
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 16px;
+        letter-spacing: 0.005em;
+        color: #c20202;
+      }
+    }
+  }
+  &-pay {
+    margin-top: 70px;
+    margin-bottom: 80px;
+    &-title {
+      font-size: 18px;
+      font-weight: 600;
+      line-height: 16px;
+      letter-spacing: 0.005em;
+      text-align: center;
+    }
+
+    &-section {
+      margin-top: 40px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      background-color: #e4e4e4;
+      height: 80px;
+      border-radius: 20px;
+      padding-left: 20px;
+      padding-right: 20px;
+      cursor: pointer;
+      &-avatar {
+        width: 60px;
+        height: 60px;
+      }
+
+      &-label {
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 16px;
+        letter-spacing: 0.005em;
+        text-align: left;
+      }
+    }
+    &-section1 {
+      margin-top: 40px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      background-color: #e4e4e4;
+      height: 150px;
+      border-radius: 20px;
+      padding-left: 20px;
+      padding-right: 20px;
+      cursor: pointer;
+    }
+  }
+}
+#paypal-button-container {
+  .paypal-buttons {
+    display: none;
+    &:first-child {
+      display: block;
+    }
+  }
+}

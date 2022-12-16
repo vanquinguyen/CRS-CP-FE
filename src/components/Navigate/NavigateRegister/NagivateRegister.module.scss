@@ -1,0 +1,33 @@
+.item{
+    display: block;
+    font-size: 3.5rem;
+    font-weight: 600;
+    padding-bottom: 30px;
+    border-bottom: 1px solid black;
+    margin-top: 40px;
+    &:hover{
+        opacity: 0.7;
+    }
+}
+.item:nth-child(2){
+    margin-top: 80px;
+}
+.wrapper{
+    position: relative;
+}
+.icon-x{
+    position: absolute;
+    top: -90px;
+    right: 80px;
+    height: 60px;
+    width: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    border-radius: 50%;
+    &:hover{
+        box-shadow: rgba(0, 0, 0, 0.1) 1px 3px 5px;
+        transition: all 0.4s;
+    }
+}

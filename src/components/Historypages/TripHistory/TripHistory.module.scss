@@ -1,0 +1,39 @@
+// .button-custom{
+//     font-size: 1.6rem;
+//     font-weight: 500;
+//     color: white;
+//     background-color:black ;
+//     border: none;
+//     border-radius: 5px;
+//     &:hover{
+//         color: white;
+//         background-color:black ;
+//     }
+// }
+.wrapper{
+    font-size: 1.4rem;
+}
+.wrapper-content{
+    padding-top: 18px;
+    padding-bottom: 18px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
+}
+.timeStop-p{
+    margin-bottom: 0;
+}
+.item-content{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.icon{
+    margin-right: 7px;
+    font-size: 1.5rem;
+}
+.title{
+    font-size: 2rem;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}

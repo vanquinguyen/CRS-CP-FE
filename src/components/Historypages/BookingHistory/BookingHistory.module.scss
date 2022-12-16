@@ -1,0 +1,100 @@
+.time-details{
+    font-size: 1.7rem;
+    font-weight: 500;
+}
+.place{
+    font-weight: 500;
+    font-size: 1.6rem;
+    opacity: 0.7;
+}
+.time-center{
+    font-size: 1.6rem;
+    font-weight: 500;
+    opacity: 0.7;
+}
+.icon-center{
+    font-size: 3.2rem;
+}
+.center-justify{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.line-crach{
+    margin-top: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-top: 2px dotted black;
+}
+.icon-deatils-zoom-out{
+    height: 20px;
+    width: 20px;
+}
+.aa{
+    display: none;
+}
+.disable-zoom{
+    display: none;
+}
+.active-zoom{
+    display: block;
+}
+.wrapper-mini{
+    padding-top: 22px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
+}
+.title-infor-ticket{
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+}
+.icon-title{
+    font-size: 1.8rem;
+    margin: 3px;
+    margin-right: 5px;
+}
+.details-ticket{
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+}
+.total{
+    font-size: 1.7rem;
+}
+.driver-title{
+
+    font-size: 1.7rem;
+}
+.avatar{
+    height: 95px;
+    width: 80px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    // background-image: url("https://image-us.eva.vn/upload/3-2020/images/2020-09-12/ngoc-trinh-cong-khai-thoi-quen-chan-goi-hu-hong-voi-nguoi-yeu-nghe-ma-do-mat-ngoc-trinh-tiet-lo-thoi-quen-hu-hong-khi-leu-leu-v-1599924142-49-width600height900.jpg");
+}
+.detal-infor-driver{
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+.button-detail{
+    font-size: 1.6rem;
+    font-weight: 500;
+    border: none;
+    height: 40px;
+    width: 120px;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+}
+.title{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-size: 2rem;
+}
+.custom-button{
+    margin-bottom: 10px;
+    width: 180px;
+}

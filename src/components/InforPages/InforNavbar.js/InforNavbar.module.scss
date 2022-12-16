@@ -1,0 +1,80 @@
+:root{
+    --size-img:150px
+}
+
+
+.wrapper{
+    position: relative;
+}
+.wrapper-content{
+    padding-left: 30px;
+}
+
+
+.avatar{
+    height: var(--size-img);
+    width:  var(--size-img);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; 
+    border-radius: 50%;
+}
+.name{
+    font-size: 1.8rem;
+}
+.role{
+    font-size: 1.2rem;
+}
+
+.wapperInfor{
+    width: 100%;
+    h3{
+        font-size: 1.8rem;
+    }
+    &-ul{
+        list-style-type: none;
+        margin-left: 15px;
+    }
+
+
+}
+.icon{
+    font-size: 1.8rem;
+    position: absolute;
+    left: 120px;
+    margin-top: -5px;
+    font-size: 20px;
+}
+.infor-options{
+    font-size: 20px;
+}
+
+
+#input[type="file"]{
+    display:none ;
+}
+
+.name-infor{
+    margin-top: 30px;
+    font-size: 1.8rem;
+    font-weight: 500;
+}
+.role-infor{
+    font-size: 1.3rem;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+.infor-options-css{
+    font-size: 1.4rem;
+    opacity: 0.7;
+
+
+}
+
+
+.litag{
+    font-size: 1.3rem;
+    opacity: 0.7;
+
+
+}

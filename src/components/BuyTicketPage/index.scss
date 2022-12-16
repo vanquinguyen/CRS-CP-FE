@@ -1,0 +1,98 @@
+.buy-ticket {
+  font-family: Montserrat;
+  &-title {
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: 0.005em;
+    text-align: left;
+    margin-top: 30px;
+  }
+  &-content {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 14px;
+    letter-spacing: 0.005em;
+    text-align: left;
+  }
+  &-steps-container {
+    display: flex;
+    flex-direction: column;
+    margin: 30px 0 30px 0;
+    .buy-ticket-steps-title {
+      display: flex;
+      justify-content: space-between;
+      &-label {
+        width: 238px;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 16px;
+        letter-spacing: 0.005em;
+        text-align: center;
+        margin-bottom: 14px;
+      }
+    }
+    .buy-ticket-steps {
+      display: flex;
+      justify-content: space-between;
+      padding: 0 90px 0 90px;
+      &-line {
+        height: 6px;
+        background-color: #d7d7d7;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        transform: translateY(17px);
+      }
+      .active {
+        background-color: black;
+      }
+    }
+  }
+  &-navigate {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+
+    &-back {
+      height: 55px;
+      border: 1px solid #3c3c3c;
+      border-radius: 55px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      font-size: 18px;
+      font-weight: 700;
+      line-height: 16px;
+      letter-spacing: 0.005em;
+      text-align: left;
+      cursor: pointer;
+
+      &-icon {
+        transform: translateX(-18px);
+        font-size: 12px;
+      }
+    }
+    &-continue {
+      height: 55px;
+      border-radius: 55px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border: 1px solid #3c3c3c;
+      font-size: 18px;
+      font-weight: 700;
+      line-height: 16px;
+      letter-spacing: 0.005em;
+      text-align: left;
+      color: white;
+      background-color: black;
+      width: 100%;
+      cursor: pointer;
+      &-icon {
+        transform: translateX(18px);
+        font-size: 12px;
+      }
+    }
+  }
+}

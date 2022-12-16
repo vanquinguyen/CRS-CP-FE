@@ -1,0 +1,30 @@
+.wrapper{}
+
+.background{
+    background-image: url('https://d1a3f4spazzrp4.cloudfront.net/chameleon/cms/uploads/2016/10/24/1477347860-pattern.png') ;
+    background-repeat: repeat-x;
+    background-position: center;
+    background-size: 60px 60px;
+    height: 42px;
+    display: block;
+}
+.logo{
+    margin: auto;
+    margin-top: -20px;
+    background-color: black;
+    height: 99px;
+    width: 170px;
+    font-size: 16px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &-element{
+        font-size: 3rem;
+        letter-spacing:0.3rem;
+        margin: 0;
+    }
+
+    
+}

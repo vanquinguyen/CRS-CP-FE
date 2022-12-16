@@ -1,0 +1,110 @@
+  .icon-loca {
+    font-size: 1.5rem;
+    margin-right: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+
+  .wrapper-loca {
+    
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    align-items: center;
+    margin-bottom: -3px;
+    border-radius: 10px;
+    transition: 0.5s;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 2px 12px, rgba(17, 17, 26, 0.05) 0px 6px 28px;
+    &:hover{
+      cursor: pointer;
+      box-shadow: rgba(7, 7, 11, 0.1) 0px 2px 12px, rgba(7, 7, 11, 0.1) 0px 6px 28px;
+    }
+  
+  }
+  .text-distacne{
+    font-size: 1.7rem;
+    font-weight: 500
+  }
+  .distance-node {
+    font-size: 1.3rem;
+    font-style: italic;
+    display: flex;
+    position: relative;
+  }
+  .dot-node {
+    width: 4px;
+    height: 4px;
+    background-color: var(--shadow--color);
+    border-radius: 50%;
+    margin-left: 5px;
+  }
+  
+  .wrapper-icon-loca {
+    display: flex;
+    font-size: 1.4rem;
+    flex-direction: row;
+    height: 100%;
+    font-weight: 500;
+    align-items: center;
+  }
+
+  
+.icon-duration {
+  font-size: 2.5rem;
+  font-weight: 600;
+  margin-left: 20px;
+  margin-right: 7px;
+  
+}
+.icon-distance{
+  font-size: 2.5rem;
+  font-weight: 600;
+  margin-right: 7px;
+}
+.wrapper-dis-du{
+  display: flex;
+  align-items: flex-end;
+}
+.wrapper-place-pickup{
+  margin-top: 8px;
+}
+.margin{
+  margin-top: 15px;
+}
+.wrapper-step{
+  display: flex;
+  align-items: flex-end;
+  position: absolute;
+  right: 15px;
+  font-style: italic;
+  font-size: 1.4rem;
+  top: 25px;
+  
+}
+.icon{
+  margin-right: 10px;
+  margin-left: 5px;
+}
+.wrapper-button-modal{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  width: 100%;
+}
+.wrapper-report{
+  margin-top: 20px;
+  border: 1px solid rgb(204, 212, 204);
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  padding: 20px 20px;
+  
+  
+}
+.report-title{
+  margin: 0 auto;
+  font-size: 1.7rem;
+}

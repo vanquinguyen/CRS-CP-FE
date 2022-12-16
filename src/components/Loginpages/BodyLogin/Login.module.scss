@@ -1,0 +1,65 @@
+:root{
+    --height--input: 44px;
+}
+
+.wrapper{
+    max-width: 100%;
+    min-height: auto;
+}
+.form{
+    max-width: 500px;
+    margin: auto;
+
+    &-to--signup{
+        font-size: 1.3rem;
+    }
+    &-title{
+        font-size: var(--font-size-title);
+        font-weight: var(--font-weight-title);
+    }
+    &-element{
+        display: block;
+
+
+        &-username{
+
+
+            input{
+                height: calc(var(--height--input) - 10px);
+            }
+        }
+        &-password{
+
+
+            input{
+                height: calc(var(--height--input) - 10px);
+            }
+        }
+        &-button{
+            height: calc(var(--height--input) + 5px);
+            width: 100%;
+            display: flex;
+            align-items: center;
+            p{
+                text-align: left;
+                display: block;
+                height: 10px;
+                font-size: 2rem;
+            }
+        }
+    }
+    
+
+}
+.button{
+    background-color: #11939A;
+    border: none;
+    margin-top: 24px;
+    margin-bottom: 24px;
+    &:hover{
+        background-color: #11939A;
+    }
+    &-title{
+        margin-left: 14px;
+    }
+}

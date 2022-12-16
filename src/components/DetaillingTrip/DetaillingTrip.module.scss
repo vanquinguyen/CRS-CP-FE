@@ -1,0 +1,46 @@
+.title{
+    margin: auto;
+    font-size: 4rem;
+    font-weight: 600;
+    color: white;
+}
+.wrapper-top-detail{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-image: url("https://cdn.blablacar.com/kairos/assets/images/carpool_only_large-1fb250954893109fa160..svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    padding-top: 30px;
+    
+}
+.wrapper{
+
+    width: 100%;   
+}
+.info-conten{
+    margin: 0 auto;
+}
+.title-summary{
+    margin: 0 auto;
+    margin-top: 21px;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+.wrapper-total-content{
+    margin: 0 auto;
+    width: 350px;
+}
+.icon-summary {
+    font-size: 2.5rem;
+    margin-right: 10px;
+}
+.item-summary{
+    display: flex;
+    align-items: flex-end;
+    margin-top: 8px;
+    font-size: 1.8rem;
+    font-weight: 500;
+}
